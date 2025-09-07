@@ -1,0 +1,60 @@
+﻿{
+  "hospitalInfo": {
+    "name": "Hospital General San José",
+    "address": "Calle 123 # 45-67, Bogotá, Colombia",
+    "phone": "+57-1-234-5678",
+    "email": "info@hospitalsanjose.com",
+    "website": "www.hospitalsanjose.com"
+  },
+  "medicalSpecialties": [
+    {
+      "code": "CARDIOLOGY",
+      "name": "Cardiología",
+      "description": "Especialidad médica que se ocupa del corazón y sistema cardiovascular"
+    },
+    {
+      "code": "DERMATOLOGY", 
+      "name": "Dermatología",
+      "description": "Especialidad médica que estudia la piel y sus enfermedades"
+    },
+    {
+      "code": "NEUROLOGY",
+      "name": "Neurología", 
+      "description": "Especialidad médica que trata el sistema nervioso"
+    },
+    {
+      "code": "PEDIATRICS",
+      "name": "Pediatría",
+      "description": "Especialidad médica que atiende a niños y adolescentes"
+    },
+    {
+      "code": "PSYCHIATRY",
+      "name": "Psiquiatría",
+      "description": "Especialidad médica que trata trastornos mentales"
+    },
+    {
+      "code": "GENERAL_MEDICINE",
+      "name": "Medicina General",
+      "description": "Atención médica integral y preventiva"
+    }
+  ],
+  "businessRules": {
+    "appointmentDurationMinutes": 30,
+    "maxAppointmentsPerDay": 20,
+    "advanceBookingDays": 30,
+    "workingHours": {
+      "start": "08:00",
+      "end": "17:00",
+      "lunchBreak": {
+        "start": "12:00",
+        "end": "13:00"
+      }
+    },
+    "validationRules": {
+      "patientDocumentMinLength": 7,
+      "patientDocumentMaxLength": 12,
+      "requireMedicalSpecialty": true,
+      "allowPastAppointments": false
+    }
+  }
+}
