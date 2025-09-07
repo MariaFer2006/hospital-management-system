@@ -1,0 +1,33 @@
+﻿{
+  "testPatients": [
+    {
+      "patientId": "TEST_PAT_001",
+      "firstName": "Test",
+      "lastName": "Patient",
+      "documentNumber": "TEST123456",
+      "birthDate": "1990-01-01",
+      "phone": "555-0001",
+      "email": "test.patient@test.com"
+    }
+  ],
+  "testDoctors": [
+    {
+      "doctorId": "TEST_DOC_001", 
+      "firstName": "Test",
+      "lastName": "Doctor",
+      "documentNumber": "TEST654321",
+      "specialty": "GENERAL_MEDICINE",
+      "phone": "555-0002",
+      "email": "test.doctor@test.com"
+    }
+  ],
+  "testAppointments": [
+    {
+      "appointmentId": "TEST_APP_001",
+      "patientId": "TEST_PAT_001",
+      "doctorId": "TEST_DOC_001",
+      "scheduledDate": "2024-12-31",
+      "reason": "Test appointment"
+    }
+  ]
+}
